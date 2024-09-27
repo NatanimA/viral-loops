@@ -1,22 +1,22 @@
 import React from 'react';
-import Card from './cards'; // Ensure the path is correct
-import Footer from './footer';
-import Sidebar from './sidebar';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from './pages/Home';
+import Display from './pages/Display';
+import NotFound from './pages/404';
 
 function App() {
-    return (
-        <div className="flex flex-col min-h-screen dark:bg-gray-100">
-            <div className="flex flex-1">
-                <div className="w-40">
-                    <Sidebar />
-                </div>
-                <div className="w-60">
-                    <Card />
-                </div>
-            </div>
-            <Footer className="mt-auto" />
-        </div>
-    );
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/preview/:id" element={<Display />} />
+
+        <Route path="*" element={<NotFound />} />
+
+      </Routes>
+    </Router>
+  );
 }
+
 
 export default App;
