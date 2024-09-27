@@ -136,7 +136,7 @@ AWS EC2: An Amazon Web Services cloud service that provides virtual machines (VM
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Please Follow this steps
+> Please Follow these steps
 
 To get a local copy up and running, follow these steps.
 
@@ -160,6 +160,13 @@ Clone this repository to your desired folder:
 ```sh
   cd my-folder
   git clone https://github.com/NatanimA/viral-loops.git
+```
+
+> Please Copy this in your .env file
+
+```
+REACT_APP_HOST = 'http://35.170.84.107/:8000'
+REACT_APP_CLIENT_HOST = 'http://localhost:3000'
 ```
 
 
@@ -209,9 +216,9 @@ To run the project after installing dependencies, execute the following command:
 
 > Features That I will be adding in the Future
 
-- [ ] **Tracking User Records when the Join the referal links**
+- [ ] **Tracking User Records when the Join the referral links**
 - [ ] **Authentication & Authorization Features**
-- [ ] **Leaderboard for Referals**
+- [ ] **Leaderboard for Referrals**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
