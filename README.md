@@ -95,11 +95,11 @@ MongoDB: A NoSQL database that provides high performance, high availability, and
 
 > The Key Features are:
 
-- **[Dynamic Preview]**
-- **[Template Building]**
-- **[Getting Created Templates Later on for preview]**
-- **[Interactive UI]**
-- **[Multiple Options to Select Styles and Fonts and Many More]**
+- **Dynamic Preview**
+- **Template Building**
+- **Getting Created Templates Later on for preview**
+- **Interactive UI**
+- **Multiple Options to Select Styles and Fonts and Many More**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,9 +128,9 @@ git clone https://github.com/NatanimA/viral-loops.git
 
 In order to run this project you need:
 
-```sh
-npm run start
-```
+- [Node.js](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/)
+
 
 ### Setup
 
@@ -155,7 +155,7 @@ Install this project with:
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project after installing dependencies, execute the following command:
 
 
 ```sh
@@ -192,9 +192,9 @@ To run the project, execute the following command:
 
 > Feature That I will be adding in the Future
 
-- [ ] **[Tracking User Records when the Join the referal links]**
-- [ ] **[Authentication & Authorization Features]**
-- [ ] **[Leaderboard for Referals]**
+- [ ] **Tracking User Records when the Join the referal links**
+- [ ] **Authentication & Authorization Features**
+- [ ] **Leaderboard for Referals**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
