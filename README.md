@@ -65,13 +65,17 @@ Notifications:
 React-Toastify: A popular library for adding toast notifications to React applications, enhancing user feedback and interaction.
 
 > Backend:
-- [Frontend Repository](https://github.com/NatanimA/viral-loops)
+- [Backend Repository](https://github.com/NatanimA/viral-loops-api)
 
 Express.js: A minimal and flexible Node.js web application framework that provides a robust set of features for building web and mobile applications.
 TypeScript: A typed superset of JavaScript that compiles to plain JavaScript, adding optional static typing and other features to enhance code quality and maintainability.
 Database:
 
 MongoDB: A NoSQL database that provides high performance, high availability, and easy scalability, well-suited for storing and retrieving document-based data.
+
+> Deployment:
+
+AWS EC2: An Amazon Web Services cloud service that provides virtual machines (VMs) and containers that can be used to run applications and services.
 
 <details>
   <summary>Client</summary>
