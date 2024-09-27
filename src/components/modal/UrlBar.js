@@ -11,23 +11,13 @@ const UrlBar = () => {
     const clientHost = API.CLIENT_HOST
     const previewId = useSelector(state => state.accordion.previewId)
 
-    const handleCopy = async () => {
+    const handleCopy = () => {
         const textToCopy = clientHost + "/preview/" + previewId;
-    
-        try {
-            // Request permission
-            await navigator.permissions.query({name: "clipboard-write"});
-            
-            // Copy text
-            await navigator.clipboard.writeText(textToCopy);
-            
-            showSuccess();
-            setTimeout(resetToDefault, 2000);
-        } catch (err) {
-            console.error('Failed to copy: ', err);
-            // Implement fallback here if needed
-        }
+        copy(textToCopy);
+        showSuccess();
+        setTimeout(resetToDefault, 2000);
     };
+    
 
     const showSuccess = () => {
         setCopied(true);
