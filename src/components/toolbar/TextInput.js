@@ -2,7 +2,7 @@ import React from 'react';
 
 const TextInput = ({ label, value, onChange }) => (
   <div className="mb-4">
-    <label className="block text-gray-700 font-medium mb-2">{label}</label>
+    <label className="block text-gray-500 font-medium text-sm mb-2">{label}</label>
     <input
       type="text"
       value={value}

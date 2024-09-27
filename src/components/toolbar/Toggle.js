@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Toggle = ({ label, isChecked, onToggle }) => (
-  <div className="flex items-center justify-between mb-4">
+  <div className="flex items-center justify-between mb-4 w-full">
     <label className="text-gray-500 font-medium text-sm">
       {label} <span className="text-red-500">*</span>
     </label>
