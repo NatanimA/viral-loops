@@ -33,17 +33,21 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Viral Loops] <a name="about-project"></a>
+# 📖 Viral Loops <a name="about-project"></a>
 
 > Viral Loops is an innovative platform designed to streamline the creation of customizable template forms for referral marketing campaigns. With its intuitive interface and dynamic live preview feature, Viral Loops empowers marketers to craft engaging, visually appealing forms that update in real-time, allowing for instant feedback and optimization of referral program designs.
 
-**[Viral Loops]** is an innovative platform designed to streamline the creation of customizable template forms
+> Please view project presentation here https://app.screencastify.com/v3/watch/lLzgu30ziF9ICMO1854H
 
-## 🛠 Built With <a name="built-with" href="https://react.dev/">React JS</a>
+
+**Viral Loops** is an innovative platform designed to streamline the creation of customizable template forms
+
+## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Frontend:
+> Frontend: 
+- [Frontend Repository](https://github.com/NatanimA/viral-loops)
 
 React.js: A popular JavaScript library for building user interfaces, providing a component-based architecture for efficient development and maintenance.
 JavaScript: The primary programming language used for implementing client-side logic and interactivity.
@@ -61,6 +65,7 @@ Notifications:
 React-Toastify: A popular library for adding toast notifications to React applications, enhancing user feedback and interaction.
 
 > Backend:
+- [Frontend Repository](https://github.com/NatanimA/viral-loops)
 
 Express.js: A minimal and flexible Node.js web application framework that provides a robust set of features for building web and mobile applications.
 TypeScript: A typed superset of JavaScript that compiles to plain JavaScript, adding optional static typing and other features to enhance code quality and maintainability.
@@ -175,8 +180,6 @@ To run the project after installing dependencies, execute the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Natanim Abesha**
 
 - GitHub: [@githubhandle](https://github.com/NatanimA/)
@@ -190,7 +193,7 @@ To run the project after installing dependencies, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Feature That I will be adding in the Future
+> Features That I will be adding in the Future
 
 - [ ] **Tracking User Records when the Join the referal links**
 - [ ] **Authentication & Authorization Features**
