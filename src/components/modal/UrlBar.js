@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { API } from '../../constants';
 import { useSelector } from 'react-redux';
+import copy from 'copy-to-clipboard';
 
 const UrlBar = () => {
     const [copied, setCopied] = useState(false);
@@ -10,13 +11,22 @@ const UrlBar = () => {
     const clientHost = API.CLIENT_HOST
     const previewId = useSelector(state => state.accordion.previewId)
 
-    const handleCopy = () => {
-        navigator.clipboard.writeText(clientHost +"/preview/"+previewId )
-            .then(() => {
-                showSuccess();
-                setTimeout(resetToDefault, 2000);
-            })
-            .catch(err => console.error('Failed to copy: ', err));
+    const handleCopy = async () => {
+        const textToCopy = clientHost + "/preview/" + previewId;
+    
+        try {
+            // Request permission
+            await navigator.permissions.query({name: "clipboard-write"});
+            
+            // Copy text
+            await navigator.clipboard.writeText(textToCopy);
+            
+            showSuccess();
+            setTimeout(resetToDefault, 2000);
+        } catch (err) {
+            console.error('Failed to copy: ', err);
+            // Implement fallback here if needed
+        }
     };
 
     const showSuccess = () => {
