@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import React from 'react';
+import {  useSelector } from 'react-redux';
 
 
-const Card = () => {
+const Preview = () => {
   const firstNameToggle = useSelector((state) => state.accordion.firstNameToggle);
   const lastNameToggle = useSelector((state) => state.accordion.lastNameToggle);
   const labelBackground = useSelector((state) => state.accordion.labelBackground);
@@ -30,7 +30,7 @@ const Card = () => {
   const buttonBackground = useSelector((state) => state.accordion.buttonBackground);
   const buttonText = useSelector((state) => state.accordion.buttonText);
   const buttonTextColor = useSelector((state) => state.accordion.buttonTextColor);
-  const [headerText3, setHeaderText3] = useState('Powered by Viral Loops');
+  const headerText3 = "Powered by Viral Loops";
 
 
   
@@ -70,4 +70,4 @@ const Card = () => {
     );
 };
 
-export default Card;
+export default Preview;
